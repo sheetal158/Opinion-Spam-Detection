@@ -593,27 +593,4 @@ if __name__ == "__main__":
     #main(sys.argv);
     x = SpamDetection('x','y')    
 
-"""
-
-pos=nx.spring_layout(B) 
-graph_pos = nx.fruchterman_reingold_layout(B) 
-nx.draw(B, with_labels = True)  
-plt.savefig("graph.png")
-
-
-
-bottom_nodes, top_nodes = bipartite.sets(B)
-print B.edges()
-print list(bottom_nodes)
-print list(top_nodes)   
-
-for i in bottom_nodes:
-    for j in top_nodes:
-       print i
-       print j 
-       print B[i][j]['rating']
-       
-   print "In Graph:"
-    print "restaurants: "+str(len(list(bottom_nodes)))
-    print "reviewers: "+str(len(list(top_nodes)))        
-"""          
+      
